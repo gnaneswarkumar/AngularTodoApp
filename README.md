@@ -1,3 +1,20 @@
+# Setup
+Rename `server/config/default_example.json` to `server/config/default.json` and update configuration to your values
+
+Rename `server/sample.env.txt` to `server/.env` to use any environment variables
+
+Don't forget to `npm i` in both front end (Angular) and back end `/server` (api - NodeJS)
+
+# Front end server
+    cd angular-todo-app
+    npm i
+    npm start
+
+# API server
+    cd server
+    npm i
+    node index.js
+
 # AngularTodoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.

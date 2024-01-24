@@ -1,0 +1,22 @@
+{
+    "server": {
+      "host": "localhost",
+      "port": 3000
+    },
+    "mail": {
+        "mail_host": "smtp.gmail.com",
+        "mail_port": 465,
+        "mail_service": "gmail",
+        "mail_auth_user": "<sender email>",
+        "mail_auth_user_pass": "<sender pass> - Refer to generate https://stackoverflow.com/questions/59188483/error-invalid-login-535-5-7-8-username-and-password-not-accepted",
+        "mail_sender_email": "<sender email again>",
+        "mail_to_email": "<Receiver email>",
+        "mail_subject": "Meeting Reminder",
+        "mail_body": "<p>hi your meeting in just 15 min</p>"
+    },
+    "database": {
+        "database_name": "angular-node-todoapp",
+        "database_collection": "angular-node-todoapp-collection",
+        "database_connection_string": "<update your mongodb+srv://connection string>"
+    }
+}
